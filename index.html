@@ -11,22 +11,19 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
     <link rel="android-chrome" type="image/png" sizes="192x192" href="/favicon_io/android-chrome-192x192.png">
     <link rel="android-chrome" type="image/png" sizes="512x512" href="/favicon_io/android-chrome-512x512.png">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <title>Ukraine Resources 💙💛</title>
 </head>
 <body>
+    <div id="nav-placeholder">
 
-    <nav id="botnav"></nav> 
-    <nav id="topnav" class="navbar navbar-expand-sm fixed-top navbar-dark">
-
-        <div class="collapse navbar-collapse justify-content-end" id="topnavbar">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="/#titlepage">Home</a>
-                <a class="nav-item nav-link" href="pages/info.htm">Info</a>
-                <a class="nav-item nav-link" href="pages/about us.htm">About us</a>
-                <a class="nav-item nav-link" href="pages/donate.htm">Donate</a>
-            </div>
-        </div>
-    </nav>
+    </div>
+    
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("nav.html");
+    });
+    </script>
 
     <h1>
         Ukraine Relief 
