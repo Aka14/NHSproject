@@ -1,0 +1,114 @@
+html {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h1 {
+    text-align: center;
+    font-size: xxx-large;
+}
+
+body {
+    margin: 0 0;
+    margin-top: 70px;
+    text-align: center;
+}
+
+#topnav {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    height: 28px;
+    background-color:cornflowerblue;
+    background-size: cover;
+    text-align: right;
+}
+
+#botnav {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 28px; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    height: 28px;
+    background-color:gold;
+    background-size: cover;
+    text-align: right;
+}
+
+.center {
+    display: block;
+    margin-left: 35%;
+    background-image: url('https://media.istockphoto.com/photos/flag-of-ukraine-picture-id489481939?b=1&k=20&m=489481939&s=170667a&w=0&h=NftDjpeuM0XWHPPH_faeGrUKQFb7lIypfoS06-cth5Y=');
+    background-repeat: no-repeat;
+    padding: 150px;
+    color: red;
+}
+.textcenter{
+    text-align: center;
+}
+.responsive {
+    padding: 0 6px;
+    /* float: left; */
+    width: 24.99999%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.imagecontainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+    /* padding: 100px; */
+}
+
+.navbar-nav {
+    padding-top: 18px;
+    padding-right: 8px;
+    height: 56px;
+    overflow: hidden;
+}
+
+.nav-item{
+    border-radius: 5px;
+    background-color:aquamarine;
+    padding: 8px;
+    margin: 4px;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    background-color: orangered;
+}
+
+a:hover {
+    background-color: red;
+}
+
+div.gallery {
+    border: 5px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 5px solid #777;
+}
+
+img {
+    text-decoration: none;
+    background-color: blue;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
